@@ -25,8 +25,8 @@ mqttc.on_connect = on_connect
 
 awshost = "data.iot.us-west-2.amazonaws.com"
 awsport = 8883
-clientId = "rpi3-sense-hat-itself"
-thingName = "rpi3-sense-hat"
+clientId = "rpisensehat-publisher"
+thingName = "rpisensehat"
 caPath = "rootCA.pem"
 certPath = "3b60693e48-certificate.pem.crt"
 keyPath = "3b60693e48-private.pem.key"
